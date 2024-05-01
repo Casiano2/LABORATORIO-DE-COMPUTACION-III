@@ -4,6 +4,7 @@ const Login = () => {
 
     const handleChange = (event) => {
         event.preventDefault();
+        
         const value = event.target.value;
 
         if (value.toLowerCase().includes("o")) {
@@ -15,6 +16,7 @@ const Login = () => {
 
         } else {
             setUsername(value);
+            
         };
     }
     
