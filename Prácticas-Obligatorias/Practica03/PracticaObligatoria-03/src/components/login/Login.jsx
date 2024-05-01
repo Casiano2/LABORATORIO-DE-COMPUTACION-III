@@ -10,6 +10,8 @@ const Login = () => {
 
 
             alert("El username no tiene que contener o")
+            window.location.reload();
+        
 
         } else {
             setUsername(value);
